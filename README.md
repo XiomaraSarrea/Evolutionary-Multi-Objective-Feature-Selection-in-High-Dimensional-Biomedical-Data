@@ -7,11 +7,8 @@ Non-dominated Sorting Genetic Algorithm II (NSGA-II) was implemented to navigate
 
 ## Repository Structure
 
-- **code/**: Contains the Python implementation of the optimization framework.
-    - `main_optimization.ipynb`: Jupyter notebook with the NSGA-II algorithm, custom operators, and validation loops.
-- **report/**: Contains the final scientific report.
-    - `PROJ_OPT.pdf`: Full text describing methodology, mathematical formulation, and biological interpretation of results.
-- **requirements.txt**: List of Python dependencies required to run the code.
+- `main_optimization.ipynb`: Jupyter notebook with the NSGA-II algorithm.
+- `report.pdf`: Full text describing methodology, mathematical formulation, and biological interpretation of results.
 
 ## Key Results
 
@@ -23,18 +20,6 @@ The optimization identified a stable feature subset (Knee Point) that outperform
 | **Selected Feature Dimension** | 4 |
 | **Dimensionality Reduction** | 99.4% |
 | **External Validation (XGBoost AUC)** | 0.97 |
-
-## Dependencies
-
-To run the provided code, the following Python libraries are required:
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- pymoo
-- xgboost
-- shap
 
 ## Usage
 
